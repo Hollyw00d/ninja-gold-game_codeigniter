@@ -1,0 +1,61 @@
+/****** Custom Styles ******/
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#gold-score {
+    padding: 0 0 15px;
+}
+
+#gold-score h2 {
+    font-size: 22px;
+}
+
+#gold-score span {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 5px;
+    width: 75px;
+    text-align: center;
+    margin: 0 0 0 30px;
+}
+
+#games {
+    height: 160px;
+}
+
+.game {
+    display: inline-block;
+    float: left;
+    width: 220px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 15px 0 0;
+    height: 145px;
+}
+
+#activities {
+    border: 2px solid black;
+    height: 150px;
+    overflow: auto;
+    padding: 0 20px;
+    width: 900px;
+}
+
+#activities p {
+    line-height: 14px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
